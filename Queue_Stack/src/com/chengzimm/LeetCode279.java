@@ -1,3 +1,4 @@
+/*完全平方和*/
 package com.chengzimm;
 
 class Solution279 {
