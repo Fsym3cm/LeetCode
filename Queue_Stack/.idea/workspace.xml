@@ -24,7 +24,33 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager" selected="Application.LeetCode622">
+  <component name="RunManager" selected="Application.LeetCode279">
+    <configuration name="LeetCode200" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chengzimm.LeetCode200" />
+      <module name="Queue_Stack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chengzimm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode279" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chengzimm.LeetCode279" />
+      <module name="Queue_Stack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chengzimm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LeetCode622" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.chengzimm.LeetCode622" />
       <module name="Queue_Stack" />
@@ -38,8 +64,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode860" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chengzimm.LeetCode860" />
+    <configuration name="LeetCode752" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chengzimm.LeetCode752" />
       <module name="Queue_Stack" />
       <extension name="coverage">
         <pattern>
@@ -47,16 +73,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.chengzimm.Queue" />
-      <module name="Queue_Stack" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -74,33 +90,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Queue1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chengzimm.Queue1" />
-      <module name="Queue_Stack" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.chengzimm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.LeetCode860" />
       <item itemvalue="Application.LeetCode622" />
-      <item itemvalue="Application.Queue1" />
       <item itemvalue="Application.Que" />
+      <item itemvalue="Application.LeetCode200" />
+      <item itemvalue="Application.LeetCode752" />
+      <item itemvalue="Application.LeetCode279" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeetCode279" />
+        <item itemvalue="Application.LeetCode752" />
+        <item itemvalue="Application.LeetCode200" />
         <item itemvalue="Application.LeetCode622" />
         <item itemvalue="Application.Que" />
-        <item itemvalue="Application.Queue1" />
-        <item itemvalue="Application.LeetCode860" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -128,6 +131,7 @@
       <updated>1581152274782</updated>
       <workItem from="1581152276358" duration="2590000" />
       <workItem from="1581231677527" duration="20707000" />
+      <workItem from="1581315260899" duration="21144000" />
     </task>
     <servers />
   </component>
@@ -135,37 +139,52 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1581254451340">
+    <state x="361" y="71" key="#Code_Cleanup_Inspections" timestamp="1581315424127">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581254451340" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1581254451340">
+    <state x="361" y="71" key="#Code_Cleanup_Inspections/0.0.1536.824@0.0.1536.824" timestamp="1581315424127" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1581341696541">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581254451340" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1581254451340">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581341696541" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1581341696541">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581254451340" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1581254451340">
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581341696541" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1581341696541">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581254451340" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1581254451341">
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581341696541" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1581341696541">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581254451341" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1581254451341">
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581341696541" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1581341696542">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1581254451341" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1581254451341">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581341696542" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1581341696542">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1581254451341" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1581254451341">
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1581341696542" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1581341696542">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1581254451341" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1581341696542" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1581341696542">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1581341696542" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chengzimm/LeetCode200.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
