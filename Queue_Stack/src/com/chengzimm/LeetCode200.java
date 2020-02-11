@@ -32,7 +32,7 @@ class Solution200 {
         Queue<int[]> list = new LinkedList<>();
         list.add(new int[] { i, j });
         while(! list.isEmpty()){
-            int[] cur = list.remove();
+            int[] cur = list.poll();
             i = cur[0]; j = cur[1];
             if(i >= 0 && i < grid.length && j >= 0 && j < grid[0].length && grid[i][j] == '1') {
                 grid[i][j] = '0';

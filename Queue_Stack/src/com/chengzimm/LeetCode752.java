@@ -1,4 +1,6 @@
-/*打开转盘锁*/
+/**打开转盘锁
+ *返回根节点和目标节点之间最短路径的长度。
+ * */
 package com.chengzimm;
 
 import java.util.*;
@@ -34,7 +36,7 @@ class Solution752 {
         visited.add(start);
         int step = 0;
         while(!que.isEmpty()){
-            //因为que.size的长度不为定值所以复制给size
+            //因为que.size的长度不为定值所以复制给size，使用size
             int size = que.size();
             for(int i = 0; i < size; i++){
                 //peek返回队列第一个元素但是不删除
@@ -54,7 +56,7 @@ class Solution752 {
                     }
                 }
             }
-            //每遍历完一层，step加一
+            //每遍历完一层，step加一（第一层0000不算 所以放在后面step-1）
             step++;
         }
         return -1;

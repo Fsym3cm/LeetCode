@@ -4,9 +4,7 @@ package com.chengzimm;
 
 public class Queue_BFS {
     public static void main(String[] args) {
-    /*    *//**
-         * Return the length of the shortest path between root and target node.
-         *//*
+    /*   //返回根节点和目标节点之间最短路径的长度(step为层数)。
         int BFS(Node root, Node target) {
             Queue<Node> queue;  // store all nodes which are waiting to be processed
             int step = 0;       // number of steps neeeded from root to current node
@@ -29,9 +27,7 @@ public class Queue_BFS {
             return -1;          // there is no path from root to target
         }*/
 
-    /*    *//**
-         * Return the length of the shortest path between root and target node.
-         *//*
+    /*   //返回根节点和目标节点之间最短路径的长度。
         int BFS(Node root, Node target) {
             Queue<Node> queue;  // store all nodes which are waiting to be processed
             Set<Node> used;     // store all the used nodes
