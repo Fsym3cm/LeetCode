@@ -29,9 +29,9 @@
       <recent name="com.chengzimm" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LeetCode739">
-    <configuration name="LeetCode155" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chengzimm.LeetCode155" />
+  <component name="RunManager" selected="Application.BinaryTree">
+    <configuration name="BinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chengzimm.BinaryTree" />
       <module name="Queue_Stack" />
       <extension name="coverage">
         <pattern>
@@ -43,8 +43,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chengzimm.LeetCode20" />
+    <configuration name="LeetCode133" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chengzimm.LeetCode133" />
+      <module name="Queue_Stack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chengzimm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode150" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chengzimm.LeetCode150" />
+      <module name="Queue_Stack" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chengzimm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode494" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chengzimm.LeetCode494" />
       <module name="Queue_Stack" />
       <extension name="coverage">
         <pattern>
@@ -69,46 +95,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sta" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chengzimm.Sta" />
-      <module name="Queue_Stack" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.chengzimm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Stack1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chengzimm.Stack1" />
-      <module name="Queue_Stack" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.chengzimm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.Stack1" />
-      <item itemvalue="Application.Sta" />
-      <item itemvalue="Application.LeetCode155" />
-      <item itemvalue="Application.LeetCode20" />
       <item itemvalue="Application.LeetCode739" />
+      <item itemvalue="Application.LeetCode150" />
+      <item itemvalue="Application.LeetCode133" />
+      <item itemvalue="Application.LeetCode494" />
+      <item itemvalue="Application.BinaryTree" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinaryTree" />
+        <item itemvalue="Application.LeetCode494" />
+        <item itemvalue="Application.LeetCode133" />
+        <item itemvalue="Application.LeetCode150" />
         <item itemvalue="Application.LeetCode739" />
-        <item itemvalue="Application.LeetCode20" />
-        <item itemvalue="Application.LeetCode155" />
-        <item itemvalue="Application.Sta" />
-        <item itemvalue="Application.Stack1" />
       </list>
     </recent_temporary>
   </component>
@@ -138,6 +138,8 @@
       <workItem from="1581231677527" duration="20707000" />
       <workItem from="1581315260899" duration="21144000" />
       <workItem from="1581401698156" duration="23459000" />
+      <workItem from="1581485432555" duration="717000" />
+      <workItem from="1581491332125" duration="26307000" />
     </task>
     <servers />
   </component>
@@ -149,6 +151,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="71" key="#Code_Cleanup_Inspections/0.0.1536.824@0.0.1536.824" timestamp="1581315424127" />
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser" timestamp="1581510562724">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="121" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1581510562724" />
     <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1581401903121">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -157,38 +163,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="524" y="115" key="#xdebugger.evaluate/0.0.1536.824@0.0.1536.824" timestamp="1581408012300" />
-    <state width="1493" height="204" key="GridCell.Tab.0.bottom" timestamp="1581430438019">
+    <state width="1493" height="204" key="GridCell.Tab.0.bottom" timestamp="1581519440100">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="204" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581430438019" />
-    <state width="1493" height="204" key="GridCell.Tab.0.center" timestamp="1581430438018">
+    <state width="1493" height="204" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581519440100" />
+    <state width="1493" height="204" key="GridCell.Tab.0.center" timestamp="1581519440099">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="204" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581430438018" />
-    <state width="1493" height="204" key="GridCell.Tab.0.left" timestamp="1581430438018">
+    <state width="1493" height="204" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581519440099" />
+    <state width="1493" height="204" key="GridCell.Tab.0.left" timestamp="1581519440099">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="204" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581430438018" />
-    <state width="1493" height="204" key="GridCell.Tab.0.right" timestamp="1581430438018">
+    <state width="1493" height="204" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581519440099" />
+    <state width="1493" height="204" key="GridCell.Tab.0.right" timestamp="1581519440099">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="204" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581430438018" />
-    <state width="1493" height="204" key="GridCell.Tab.1.bottom" timestamp="1581430438019">
+    <state width="1493" height="204" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581519440099" />
+    <state width="1493" height="204" key="GridCell.Tab.1.bottom" timestamp="1581519440100">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="204" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581430438019" />
-    <state width="1493" height="204" key="GridCell.Tab.1.center" timestamp="1581430438019">
+    <state width="1493" height="204" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581519440100" />
+    <state width="1493" height="204" key="GridCell.Tab.1.center" timestamp="1581519440100">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="204" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1581430438019" />
-    <state width="1493" height="204" key="GridCell.Tab.1.left" timestamp="1581430438019">
+    <state width="1493" height="204" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1581519440100" />
+    <state width="1493" height="204" key="GridCell.Tab.1.left" timestamp="1581519440100">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="204" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1581430438019" />
-    <state width="1493" height="204" key="GridCell.Tab.1.right" timestamp="1581430438019">
+    <state width="1493" height="204" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1581519440100" />
+    <state width="1493" height="204" key="GridCell.Tab.1.right" timestamp="1581519440100">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="204" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1581430438019" />
+    <state width="1493" height="204" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1581519440100" />
+    <state x="362" y="15" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1581509964464">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="362" y="15" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.824@0.0.1536.824" timestamp="1581509964463" />
+    <state x="511" y="40" key="refactoring.ChangeSignatureDialog" timestamp="1581511613588">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="511" y="40" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1581511613588" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -202,6 +216,16 @@
           <url>file://$PROJECT_DIR$/src/com/chengzimm/LeetCode752.java</url>
           <line>40</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chengzimm/LeetCode739.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/chengzimm/LeetCode739.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

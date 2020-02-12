@@ -1,9 +1,9 @@
+/*最小栈*/
 package com.chengzimm;
 
 import java.util.*;
 
-/**最小栈
- * push(x) -- 将元素 x 推入栈中。
+/**push(x) -- 将元素 x 推入栈中。
  * pop() -- 删除栈顶的元素。
  * top() -- 获取栈顶元素。
  * getMin() -- 检索栈中的最小元素。*/
