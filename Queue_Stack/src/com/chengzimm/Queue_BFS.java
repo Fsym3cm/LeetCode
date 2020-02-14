@@ -27,6 +27,25 @@ public class Queue_BFS {
             return -1;          // there is no path from root to target
         }*/
 
+        /*//BFS遍历图
+        void BFS(Node root) {
+            Queue<Node> queue;  // store all nodes which are waiting to be processed
+            // initialize
+            add root to queue;
+            // BFS
+            while (queue is not empty) {
+            // iterate the nodes which are already in the queue
+            int size = queue.size();
+                Node cur = the first node in queue;
+                return step if cur is target;
+                for (Node next : the neighbors of cur) {
+                    add next to queue;
+                }
+                remove the first node from queue;
+            }
+           return -1;          // there is no path from root to target
+        }*/
+
     /*   //返回根节点和目标节点之间最短路径的长度。
         int BFS(Node root, Node target) {
             Queue<Node> queue;  // store all nodes which are waiting to be processed

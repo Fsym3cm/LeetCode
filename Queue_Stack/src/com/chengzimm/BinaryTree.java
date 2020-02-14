@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.List;
 //把一个数组的值存入二叉树中，然后进行3种方式的遍历
 public class BinaryTree {
-    private int[] array = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+//    private int[] array = {1, 2, 3, 4, 5, 6, 7, 8, 9};
     private static List<Node> nodeList = null;
     //内部类结点
     private static class Node {
@@ -18,7 +18,7 @@ public class BinaryTree {
             data = newData;
         }
     }
-    public void createBinTree() {
+    public void createBinTree(int[] array) {
         nodeList = new LinkedList<Node>();
         // 将一个数组的值依次转换为Node节点
         for (int nodeIndex = 0; nodeIndex < array.length; nodeIndex++) {
@@ -87,7 +87,7 @@ public class BinaryTree {
     }
     public static void main(String[] args) {
         BinaryTree binTree = new BinaryTree();
-        binTree.createBinTree();
+        binTree.createBinTree(new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9});
         // nodeList中第0个索引处的值即为根节点
         Node root = nodeList.get(0);
         System.out.println("先序遍历：");

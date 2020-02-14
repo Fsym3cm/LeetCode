@@ -59,8 +59,8 @@ class Solution279 {
         boolean used[] = new boolean[n];
         while (!queue.isEmpty()) {
             //使用BFS模板
-            int size = queue.size();
-            for (int i = 0; i < size; i++) {
+ /*           int size = queue.size();
+            for (int i = 0; i < size; i++) {*/
                 Node cur = queue.poll();
                 int val = cur.val;
                 int step = cur.step;
@@ -74,7 +74,7 @@ class Solution279 {
                         used[nextVal] = true;
                     }
                 }
-            }
+   /*         }*/
             //每一层顺序遍历，当nextVal<0时跳入下一层。
             /*Node cur = queue.poll();
             int val = cur.val;
@@ -125,14 +125,15 @@ class Solution279 {
         }
         return -1;
     }
+
 }
 
 
 public class LeetCode279 {
     public static void main(String[] args) {
-        int n = 7168;
+        int n = 13;
         Solution279 solution = new Solution279();
-        int answer = solution.numSquares3(n);
+        int answer = solution.numSquares2(n);
         System.out.println(answer);
     }
 }
