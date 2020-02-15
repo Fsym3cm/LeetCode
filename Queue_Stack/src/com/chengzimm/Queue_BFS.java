@@ -10,7 +10,7 @@ public class Queue_BFS {
             int step = 0;       // number of steps neeeded from root to current node
             // initialize
             add root to queue;
-            // BFS
+            // BFS 这个循环当不求step时可以不写
             while (queue is not empty) {
                 step = step + 1;
                 // iterate the nodes which are already in the queue
