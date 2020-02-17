@@ -27,9 +27,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager" selected="Application.LeetCode119">
-    <configuration name="LeetCode118" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chengzimm.LeetCode118" />
+  <component name="RunManager" selected="Application.LeetCode50">
+    <configuration name="LeetCode1013" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chengzimm.LeetCode1013" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
@@ -41,8 +41,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode119" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chengzimm.LeetCode119" />
+    <configuration name="LeetCode50" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chengzimm.LeetCode50" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
@@ -54,8 +54,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chengzimm.LeetCode24" />
+    <configuration name="LeetCode509" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chengzimm.LeetCode509" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
@@ -67,8 +67,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LeetCode344" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chengzimm.LeetCode344" />
+    <configuration name="LeetCode70" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chengzimm.LeetCode70" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
@@ -80,22 +80,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.chengzimm.Main" />
-      <module name="Recurrence" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+    <configuration name="TailRecursion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chengzimm.TailRecursion" />
+      <module name="untitled104" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.chengzimm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LeetCode119" />
-        <item itemvalue="Application.LeetCode118" />
-        <item itemvalue="Application.LeetCode24" />
-        <item itemvalue="Application.LeetCode344" />
+        <item itemvalue="Application.LeetCode50" />
+        <item itemvalue="Application.TailRecursion" />
+        <item itemvalue="Application.LeetCode509" />
+        <item itemvalue="Application.LeetCode70" />
+        <item itemvalue="Application.LeetCode1013" />
       </list>
     </recent_temporary>
   </component>
@@ -123,6 +127,9 @@
       <updated>1581771647074</updated>
       <workItem from="1581771648422" duration="53000" />
       <workItem from="1581834899274" duration="12475000" />
+      <workItem from="1581920936853" duration="16404000" />
+      <workItem from="1581942773041" duration="3637000" />
+      <workItem from="1581950159679" duration="6000" />
     </task>
     <servers />
   </component>
@@ -134,22 +141,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824@0.0.1536.824" timestamp="1581842184349" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1581853133159">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1581949301307">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581853133159" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1581853133159">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581949301307" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1581949301307">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581853133159" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1581853133159">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581949301307" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1581949301307">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581853133159" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1581853133159">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581949301307" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1581949301307">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581853133159" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581949301307" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1581853133160">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -177,7 +184,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/chengzimm/LeetCode24.java</url>
-          <line>18</line>
+          <line>20</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">

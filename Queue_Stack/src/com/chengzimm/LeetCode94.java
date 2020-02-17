@@ -59,6 +59,20 @@ class Solution94 {
         }
         return target;
     }
+
+    public List<Integer> inorderTraversal3(TreeNode root) {
+        List<Integer> target = new ArrayList<>();
+        helper(root, target);
+        return target;
+    }
+    public void helper2(TreeNode root, List<Integer> target){
+        if (root == null){
+            return;
+        }
+        helper2(root.left, target);
+        target.add(root.val);
+        helper2(root.right, target);
+    }
 }
 
 public class LeetCode94 {
