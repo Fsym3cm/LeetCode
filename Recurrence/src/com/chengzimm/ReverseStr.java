@@ -15,4 +15,8 @@ public class ReverseStr {
         helper(index + 1, str);
         System.out.print(str[index]);
     }
+
+    public static void main(String[] args) {
+        printReverse(new char[]{'h', 'e', 'l', 'l', 'o'});
+    }
 }

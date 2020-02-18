@@ -1,3 +1,4 @@
+/* Pow(x, n)*/
 package com.chengzimm;
 
 class Solution50 {

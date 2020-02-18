@@ -16,8 +16,7 @@ import java.util.Stack;
       TreeNode(int x) { val = x; }
   }*/
 class Solution104 {
-    /*int left = 1, right = 1;
-    public int maxDepth(TreeNode root) {
+    /*public int maxDepth(TreeNode root) {
         return helper(root, 0);
     }
     private int helper(TreeNode root, int depth){
