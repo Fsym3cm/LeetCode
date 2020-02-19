@@ -27,9 +27,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager" selected="Application.ReverseStr">
-    <configuration name="LeetCode50" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.chengzimm.LeetCode50" />
+  <component name="RunManager" selected="Application.LeetCode104">
+    <configuration name="LeetCode104" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.chengzimm.LeetCode104" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
@@ -95,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ReverseStr" />
+        <item itemvalue="Application.LeetCode104" />
         <item itemvalue="Application.LeetCode95" />
+        <item itemvalue="Application.ReverseStr" />
         <item itemvalue="Application.LeetCode779" />
         <item itemvalue="Application.LeetCode795" />
-        <item itemvalue="Application.LeetCode50" />
       </list>
     </recent_temporary>
   </component>
@@ -131,6 +131,7 @@
       <workItem from="1581942773041" duration="3637000" />
       <workItem from="1581950159679" duration="6000" />
       <workItem from="1582006476934" duration="13495000" />
+      <workItem from="1582119911642" duration="563000" />
     </task>
     <servers />
   </component>
@@ -142,22 +143,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824@0.0.1536.824" timestamp="1581842184349" />
-    <state width="1493" height="171" key="GridCell.Tab.0.bottom" timestamp="1582021842740">
+    <state width="1493" height="113" key="GridCell.Tab.0.bottom" timestamp="1582120474535">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582021842740" />
-    <state width="1493" height="171" key="GridCell.Tab.0.center" timestamp="1582021842740">
+    <state width="1493" height="113" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1582120474535" />
+    <state width="1493" height="113" key="GridCell.Tab.0.center" timestamp="1582120474535">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582021842740" />
-    <state width="1493" height="171" key="GridCell.Tab.0.left" timestamp="1582021842740">
+    <state width="1493" height="113" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1582120474535" />
+    <state width="1493" height="113" key="GridCell.Tab.0.left" timestamp="1582120474535">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582021842740" />
-    <state width="1493" height="171" key="GridCell.Tab.0.right" timestamp="1582021842740">
+    <state width="1493" height="113" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1582120474535" />
+    <state width="1493" height="113" key="GridCell.Tab.0.right" timestamp="1582120474535">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="171" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582021842740" />
+    <state width="1493" height="113" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1582120474535" />
     <state width="1493" height="171" key="GridCell.Tab.1.bottom" timestamp="1582021842741">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

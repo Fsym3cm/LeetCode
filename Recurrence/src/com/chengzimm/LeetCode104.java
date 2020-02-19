@@ -1,22 +1,21 @@
 /*二叉树的最大深度*/
 package com.chengzimm;
 
-import javax.swing.tree.TreeNode;
 import java.util.LinkedList;
-import java.util.List;
 import java.util.Queue;
-import java.util.Stack;
-
 
 // Definition for a binary tree node.
-/*public class TreeNode {
-      int val;
-      TreeNode left;
-      TreeNode right;
-      TreeNode(int x) { val = x; }
-  }*/
+
 class Solution104 {
-    /*public int maxDepth(TreeNode root) {
+
+    class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode(int x) { val = x; }
+    }
+
+    public int maxDepth(TreeNode root) {
         return helper(root, 0);
     }
     private int helper(TreeNode root, int depth){
@@ -49,7 +48,7 @@ class Solution104 {
             }
         }
         return step;
-    }*/
+    }
 }
 public class LeetCode104 {
     public static void main(String[] args) {
