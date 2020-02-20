@@ -32,6 +32,7 @@ class Solution142 {
             slow = slow.next;
             if (fast == slow) break;
         }
+        //把其中一个指针复制给头结点，当两个指针相遇时，返回其中一个的值
         fast = head;
         while (slow != fast) {
             slow = slow.next;
