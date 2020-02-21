@@ -1,3 +1,4 @@
+/*设计链表*/
 package com.chengzimm;
 
 /**
@@ -16,6 +17,7 @@ class MyLinkedList {
     public class ListNode {
         int val;
         ListNode next;
+        //应该使用构造函数
         ListNode(int x) { val = x; }
     }
 

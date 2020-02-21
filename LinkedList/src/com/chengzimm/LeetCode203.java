@@ -17,11 +17,14 @@ class Solution203 {
         ListNode(int x) { val = x; }
     }
 
+    //不使用哨兵节点，对head进行情况分析
     public ListNode removeElements(ListNode head, int val) {
         if (head == null) return null;
-        while (head != null && head.val == val){
+        while (head.val == val && head.next != null){
             head = head.next;
         }
+        if (head.val == val && head.next == null)
+            return null;
         ListNode pre = head;
         while (pre.next != null){
             if (pre.next.val == val){
