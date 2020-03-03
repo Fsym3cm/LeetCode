@@ -9,3 +9,5 @@ Rrcurrence:算法简介-递归
 LinkedList:数据结构简介-链表
 
 HashMap:数据结构简介-哈希表
+
+Binarytree:数据结构简介-二叉树
