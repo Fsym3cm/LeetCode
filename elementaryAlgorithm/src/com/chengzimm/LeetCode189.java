@@ -16,6 +16,7 @@ import java.util.Arrays;
  * [5,6,7,1,2,3,4]*/
 class Solution189 {
     public void rotate(int[] nums, int k) {
+        // 存储最后一个数据当做pre（第一个数据），然后通过temp保存当前数据并且放在pre变量中
         for (int i = 0; i < k; i++) {
             int pre = nums[nums.length - 1];
             for (int j = 0; j < nums.length; j++) {
