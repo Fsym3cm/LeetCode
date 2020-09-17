@@ -3,8 +3,8 @@ package com.chengzimm;
 /**
  * 移动零
  *
- * @Author CM
- * @Date 2020/9/1 11:07
+ * @author CM
+ * @aate 2020/9/1 11:07
  */
 public class LeetCode283 {
 
