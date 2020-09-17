@@ -1,0 +1,11 @@
+
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(ùþë‹
+:
+java:S1659*"Declare "j" on a separate line.(á”æåþÿÿÿÿ
+G
+java:S1128",Remove this unused import 'sun.applet.Main'.(ðÅÛ­ûÿÿÿÿ
+P
+java:S1191"5Use classes from the Java API instead of Sun classes.(ðÅÛ­ûÿÿÿÿ
+N	java:S106N"9Replace this use of System.out or System.err by a logger.(«ÄŽ•
+n	java:S135+"YReduce the total number of break and continue statements in this loop to use at most one.(¿Öá·
